@@ -37,30 +37,193 @@
       <ul class="author inline">
           <li class="current"><a href="https://www.rubensworks.net/">Ruben Taelman</a></li>
       </ul>
-      <p class="affiliation"><a href="http://idlab.technology/">Ghent University – imec – IDLab, Belgium</a></p>
+      <p class="affiliation"><a href="http://idlab.technology/">Universiteit Gent – imec – IDLab, België</a></p>
     </section>
     
-    <section id="start" class="slide">
-        <h2 class="big">TODO</h2>
-        <ul>
-            <li>TODO</li>
+    <section id="start" class="slide" style="background-image: url('img/bees.jpg'); background-size: cover">
+        <h2 class="big" style="margin-top: 20px; color: white; text-shadow: 2px 2px black">Het Web is als een bijenkorf</h2>
+        <ul style="color: white; text-shadow: 2px 2px black; font-size: 1.3em">
+            <li>Elke bij vervult een bepaalde taak</li>
+            <li><p class="indent" style="font-style:italic">Webpagina's</p></li>
+            <li>Een konining zorgt voor structuur binnen de kolonie</li>
+            <li><p class="indent" style="font-style:italic">Web standaarden</p></li>
+            <li>Bijen zijn autonoom</li>
+            <li><p class="indent" style="font-style:italic">Decentralisatie van het Web</p></li>
         </ul>
     </section>
     
     <section id="index" class="slide index">
       <ul>
-        <li><a href="#index-projects">TODO</a></li>
+        <li><a href="#index-why">Waarom Solid?</a></li>
+        <li><a href="#index-how">Hoe werkt Solid?</a></li>
+        <li><a href="#index-what">Wat is mogelijk met Solid?</a></li>
       </ul>
     </section>
     
-    <section id="index-projects" class="slide index">
+    <section id="index-why" class="slide index">
       <ul>
-        <li class="current"><a href="#index-projects">TODO</a></li>
+        <li class="current"><a href="#index-why">Waarom Solid?</a></li>
+        <li><a href="#index-how">Hoe werkt Solid?</a></li>
+        <li><a href="#index-what">Wat is mogelijk met Solid?</a></li>
+      </ul>
+    </section>
+    
+    <section id="web-is-decentralized" class="slide">
+      <h2>Het Web is fundamenteel <em>decentraal</em></h2>
+      <center><img src="img/decentral.svg"/></center>
+      <ul>
+          <li>Iedereen kan onafhankelijk pagina's <em>publiceren</em>.</li>
+          <li>Webpagina's kunnen verwijzen naar elkaar met behulp van <em>hyperlinks</em>.</li>
+          <li>Gebruikers kunnen <em>links volgen</em> om nieuwe pagina's te ontdekken.</li>
+      </ul>
+    </section>
+    
+    <section id="decentralization-complexity" class="slide">
+      <h2>Problemen decentraal oplossen: complex</h2>
+      <h3 class="indent">Concurrentie voor centrale oplossingen</h3>
+      <ul>
+          <li>
+              <h4>Visualisatie en gebruik van het Web</h4>
+              <p class="indent">
+                  1995 - 2001: Internet Explorer als Web browser (<em><a href="https://en.wikipedia.org/wiki/Browser_wars">The Browser Wars</a></em>)
+                  <br />
+                  2004 - 2018: Opkomst van Chrome en mobiel surfen
+              </p>
+          </li>
+          <li>
+              <h4>Indexering en opzoeken op het Web</h4>
+              <p class="indent">
+                  Yahoo &rarr; Google
+              </p>
+          </li>
+          <li>
+              <h4>Sociale interactie op het Web</h4>
+              <p class="indent">
+                  MySpace &rarr; Facebook, Twitter
+              </p>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="centralization-dangers" class="slide">
+      <h2>Gevaren van centrale oplossingen</h2>
+      <ul>
+          <li>
+              <h4>Misbruik van persoonlijke informatie</h4>
+              <p class="indent">
+                  Centrale data opslag vereenvoudigt misbruik van informatie.
+                  <span style="font-style:italic">(<a href="https://en.wikipedia.org/wiki/PRISM_(surveillance_program)">PRISM</a>, <a href="https://eugdpr.org/">GDPR</a>)</span>
+              </p>
+          </li>
+          <li>
+              <h4>Vendor-lock in</h4>
+              <p class="indent">Sterke afhankelijkheid van een bepaalde oplossing.</p>
+          </li>
+          <!--<li>
+              <h4>Beperking van innovatie</h4>
+              <p class="indent"><a href="https://www.theguardian.com/commentisfree/2017/nov/02/facebook-google-monopoly-companies">Opkoping en onderdrukking van alternatieve oplossingen.</a></p>
+          </li>-->
+          <li>
+              <h4>Censuur en beïnvloeding van inhoud</h4>
+              <p class="indent">
+                  Onderdrukking van ideëen niet conform met autoriteit.
+                  <span style="font-style:italic">(<a href="https://en.wikipedia.org/wiki/Filter_bubble">filter bubble</a>)</span>
+              </p>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="centralization-dangers" class="slide">
+      <h2>Solid: een decentrale oplossing</h2>
+      <ul>
+          <li>
+              <h4>Volledig beheer over eigen data <span style="text-decoration:line-through">Misbruik van persoonlijke informatie</span></h4>
+              <p class="indent">
+                  Gebruikers kiezen zelf waar data opgeslaan staat, en wie toegang heeft.
+              </p>
+          </li>
+          <li>
+              <h4>Data en applicaties zijn onafhankelijk <span style="text-decoration:line-through">Vendor-lock in</span></h4>
+              <p class="indent">
+                  Gebruikers kunnen zonder problemen alternatieve applicaties gebruiken.
+              </p>
+          </li>
+          <li>
+              <h4>Betere visibiliteit van interne processen <span style="text-decoration:line-through">Censuur en beïnvloeding van inhoud</span></h4>
+              <p class="indent">
+                  Interne data uitwisseling is zichtbaar zodat onetische manipulatie gedetecteerd kan worden.
+              </p>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="index-how" class="slide index">
+      <ul>
+        <li><a href="#index-why">Waarom Solid?</a></li>
+        <li class="current"><a href="#index-how">Hoe werkt Solid?</a></li>
+        <li><a href="#index-what">Wat is mogelijk met Solid?</a></li>
+      </ul>
+    </section>
+    
+    <section id="solid-detaches-data" class="slide">
+      <h2>Solid ontkoppelt data van applicatie</h2>
+      <img src="img/social-network-central.svg" />
+      <img src="img/social-network-solid.svg" style="float:right" />
+      <ul>
+          <li>Solid gebruikers hebben persoonlijke <em>data pods</em>.
+              <br />
+              <span class="indent"><em>(persoonlijk gegevens, foto's, vrienden, ...)</em></span>
+          </li>
+          <li><em>Applicaties zijn onafhankelijk</em> van pods, en vereisen lees/schrijf rechten.</li>
+          <li>Data opgeslaan volgens <em><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data principes</a></em>.</li>
+      </ul>
+    </section>
+    
+    <section id="solid-data-pods" class="slide">
+      <h2>Vrijheid waar jouw eigen data pod staat</h2>
+      <ul>
+          <li>
+              <h4>Persoonlijke data pod op eigen server</h4>
+              <p class="indent">Iedereen kan een Solid server opzetten</p>
+          </li>
+          <li>
+              <h4>Data opslag huren</h4>
+              <p class="indent">Gegarandeerde beschikbaarheid</p>
+          </li>
+          <li>
+              <h4>Pod op een gedeelde server</h4>
+              <p class="indent">Beperkte opslagruimte</p>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="solid-apps" class="slide">
+      <h2>Applicaties combineren data over meerdere Solid pods</h2>
+      <ul>
+          <li>
+              <h4>Combineren van data pods</h4>
+              <p class="indent">Applicaties zijn visualisaties over één of meerdere pods.</p>
+          </li>
+          <li>
+              <h4>Decentrale data opslag</h4>
+              <p class="indent">Gegevens worden niet centraal opgeslaan, maar bij de gebruikers zelf.</p>
+          </li>
+          <li>
+              <h4>Expliciete toegangscontrole</h4>
+              <p class="indent">Applicaties kunnen data pas lezen of aanpassen na goedkeuring.</p>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="index-what" class="slide index">
+      <ul>
+        <li><a href="#index-why">Waarom Solid?</a></li>
+        <li><a href="#index-how">Hoe werkt Solid?</a></li>
+        <li class="current"><a href="#index-what">Wat is mogelijk met Solid?</a></li>
       </ul>
     </section>
     
     <section id="conclusion" class="slide">
-      <em style="float: right"><small>Disclaimer: my opinions</small></em>
       <h2 class="big">TODO</h2>
       <ul>
           <li>TODO</li>
